@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         {
             if value > 0 {
                 number = value
-                input.text = " "
+                input.text = ""
             }
             else{
                 let alert = UIAlertController(title:"Input Error", message: "This is not a positive interger",preferredStyle: .Alert)
