@@ -25,6 +25,7 @@ class ShowResult: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    //max input is 92. number are too large after that
     func evaluate(input: Int) -> String {
         var result:[Int] = []
         var output:String = ""
@@ -37,7 +38,7 @@ class ShowResult: UIViewController {
                 //i start from 1 whoel array index start from 0
                 result.append(result[i-3] + result[i-2])
             }
-            output = "\(output)    \(result[i-1])"
+            output = "\(output)   \(result[i-1])"
         }
         return output
     }
