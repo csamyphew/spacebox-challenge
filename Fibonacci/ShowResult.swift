@@ -10,10 +10,14 @@ import UIKit
 
 class ShowResult: UIViewController {
     
+    var inputNumber :Int?
+    
     @IBOutlet weak var userInput: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        userInput.text = String(inputNumber!)
     }
     
     override func didReceiveMemoryWarning() {
