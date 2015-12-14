@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E17C6E01C1E7A31003ED62A /* ShowResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E17C6DF1C1E7A31003ED62A /* ShowResult.swift */; };
 		2EB056DF1C1C4D5600834677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB056DE1C1C4D5600834677 /* AppDelegate.swift */; };
 		2EB056E11C1C4D5600834677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB056E01C1C4D5600834677 /* ViewController.swift */; };
 		2EB056E41C1C4D5600834677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB056E21C1C4D5600834677 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E17C6DF1C1E7A31003ED62A /* ShowResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowResult.swift; sourceTree = "<group>"; };
 		2EB056DB1C1C4D5600834677 /* Fibonacci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibonacci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB056DE1C1C4D5600834677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB056E01C1C4D5600834677 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				2EB056DE1C1C4D5600834677 /* AppDelegate.swift */,
 				2EB056E01C1C4D5600834677 /* ViewController.swift */,
 				2EB056E21C1C4D5600834677 /* Main.storyboard */,
+				2E17C6DF1C1E7A31003ED62A /* ShowResult.swift */,
 				2EB056E51C1C4D5600834677 /* Assets.xcassets */,
 				2EB056E71C1C4D5600834677 /* LaunchScreen.storyboard */,
 				2EB056EA1C1C4D5600834677 /* Info.plist */,
@@ -199,6 +202,7 @@
 			files = (
 				2EB056E11C1C4D5600834677 /* ViewController.swift in Sources */,
 				2EB056DF1C1C4D5600834677 /* AppDelegate.swift in Sources */,
+				2E17C6E01C1E7A31003ED62A /* ShowResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 				2EB056FA1C1C4D5600834677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EB056FB1C1C4D5600834677 /* Build configuration list for PBXNativeTarget "FibonacciTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				2EB056FD1C1C4D5600834677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

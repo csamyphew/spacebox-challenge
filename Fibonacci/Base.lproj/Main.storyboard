@@ -60,6 +60,7 @@
                                     <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="HCb-hx-fnX"/>
                                     <segue destination="Apl-gH-uru" kind="show" id="dPK-Eh-qqV"/>
                                 </connections>
                             </button>
@@ -77,15 +78,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dut-iK-hRg"/>
+                    <connections>
+                        <outlet property="input" destination="9lg-cb-yQZ" id="cnE-Nl-pX9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-512" y="54"/>
         </scene>
-        <!--View Controller-->
+        <!--Show Result-->
         <scene sceneID="VAc-JX-C3O">
             <objects>
-                <viewController id="Apl-gH-uru" sceneMemberID="viewController">
+                <viewController id="Apl-gH-uru" customClass="ShowResult" customModule="Fibonacci" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hoM-LU-rzD"/>
                         <viewControllerLayoutGuide type="bottom" id="r8A-na-cU8"/>
@@ -149,6 +153,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="userInput" destination="aCt-ra-3YJ" id="rtT-b6-D8H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E9p-UD-w0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
