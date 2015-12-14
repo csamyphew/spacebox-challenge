@@ -13,6 +13,7 @@ class ShowResult: UIViewController {
     var inputNumber :Int?
     
     @IBOutlet weak var userInput: UILabel!
+    //text label(no of numbers catered): iPhone5 42,iPhone6 45, iPhone6 Plus 48
     @IBOutlet weak var answer: UILabel!
     
     override func viewDidLoad() {
